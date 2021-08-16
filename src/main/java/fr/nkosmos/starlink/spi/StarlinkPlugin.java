@@ -3,7 +3,7 @@ package fr.nkosmos.starlink.spi;
 import java.util.function.Consumer;
 
 /**
- * Serdsaddsdavice interface to which a {@link Starlink} instance is dispatched.
+ * Service interface to which a {@link Starlink} instance is dispatched.
  */
 @FunctionalInterface
 public interface StarlinkPlugin extends Consumer<Starlink>, Comparable<StarlinkPlugin> {
